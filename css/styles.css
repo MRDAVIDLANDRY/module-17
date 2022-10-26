@@ -1,0 +1,76 @@
+
+body{
+    background-color: #FFE600;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 0;
+}
+
+.texture {
+    position: fixed;
+    z-index: -1;
+    /* height: 500px;
+    width: 200px; */
+}
+    /* margin: 0; */
+#hero-image{
+    height: 800px;
+}
+nav{
+    background-color: #00A3FF;
+    height: 120px;
+    display: flex;
+    width: 115%;
+    transform: rotate(-5deg);
+    left: -100px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 46px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 60px;
+}
+main{
+    display: flex;
+    padding: 50px;
+    
+}
+section{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+.work-links{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+.about-me{
+    font-family: 'Allan', cursive;
+    font-size: 48px;
+
+
+}
+.content{
+}
+
+header{
+    font-family: 'Allan', cursive;
+    font-size: 36px;
+}
+h1{
+    font-family: "Alfa Slab One", cursive;
+    font-size: 128px;
+    flex-direction: column;
+    color: red;
+
+}
+
+footer{
+    
+}
